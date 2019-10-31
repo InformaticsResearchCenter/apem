@@ -1,4 +1,4 @@
-import speech_recognition as sr
+import speech_recognition as sr #penyelesaian issue 6
 r=sr.Recognizer()
 with sr.Microphone() as source:
     print("SPEAK ANYTHING")
