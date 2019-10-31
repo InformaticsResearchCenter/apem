@@ -1,6 +1,6 @@
 import speech_recognition as sr 
-r=sr.Recognizer() #penyelesaian issues 7
-with sr.Microphone() as source:
+r=sr.Recognizer() 
+with sr.Microphone() as source: #penyelesaian issues #8
     print("SPEAK ANYTHING")
     audio = r.listen(source)
     
