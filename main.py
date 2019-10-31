@@ -6,7 +6,7 @@ with sr.Microphone() as source:
     
     try:
         print("YOU SAY :" + r.recognize_google(audio, language = 'id-ID'))
-except Exception as e:#issue5
+    except Exception as e:#penyelesaian issue5
         print(e)
 
 print("TIME OVER, THANK YOU")
