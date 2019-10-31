@@ -5,7 +5,7 @@ with sr.Microphone() as source:
     audio = r.listen(source)
     
     try:
-        print("YOU SAY :" + r.recognize_google(audio, language = 'id-ID'))
+        print("YOU SAY :" + r.recognize_google(audio, language = 'id-ID'))#3
     except Exception as e:
         print(e)
 
