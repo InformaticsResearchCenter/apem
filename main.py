@@ -4,8 +4,8 @@ def masuk():
         from selenium.webdriver.firefox.options import Options 
         opsi = Options() 
         opsi = webdriver.firefox.options.Options() 
-        opsi.headless = False #15
-        cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX
+        opsi.headless = False 
+        cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX #16
         cap['marionette'] = True
         driver = webdriver.Firefox()
         driver.get("https://siap.poltekpos.ac.id")
@@ -15,8 +15,8 @@ def login():
         from selenium.webdriver.firefox.options import Options 
         opsi = Options() 
         opsi = webdriver.firefox.options.Options() 
-        opsi.headless = False #15
-        cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX
+        opsi.headless = False
+        cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX #16
         cap['marionette'] = True
         driver = webdriver.Firefox()
         driver.get("https://siap.poltekpos.ac.id")
