@@ -3,8 +3,8 @@ def masuk():
         from selenium import webdriver 
         from selenium.webdriver.firefox.options import Options 
         opsi = Options() 
-        opsi = webdriver.firefox.options.Options() #14
-        opsi.headless = False
+        opsi = webdriver.firefox.options.Options() 
+        opsi.headless = False #15
         cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX
         cap['marionette'] = True
         driver = webdriver.Firefox()
@@ -14,8 +14,8 @@ def login():
         from selenium import webdriver
         from selenium.webdriver.firefox.options import Options 
         opsi = Options() 
-        opsi = webdriver.firefox.options.Options() #14
-        opsi.headless = False
+        opsi = webdriver.firefox.options.Options() 
+        opsi.headless = False #15
         cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX
         cap['marionette'] = True
         driver = webdriver.Firefox()
