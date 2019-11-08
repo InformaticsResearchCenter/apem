@@ -8,7 +8,7 @@ def masuk():
         cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX 
         cap['marionette'] = True 
         driver = webdriver.Firefox()
-        driver.get("https://siap.poltekpos.ac.id") #19
+        driver.get("https://siap.poltekpos.ac.id")
 
 def login():
         from selenium import webdriver
@@ -19,8 +19,8 @@ def login():
         cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX 
         cap['marionette'] = True 
         driver = webdriver.Firefox() 
-        driver.get("https://siap.poltekpos.ac.id") #19
-        driver.find_element_by_name('user_name').send_keys("1184030")
+        driver.get("https://siap.poltekpos.ac.id")
+        driver.find_element_by_name('user_name').send_keys("1184030") #issue 20
         driver.find_element_by_name('user_pass').send_keys("sariasih54")
         driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()
 r= sr.Recognizer()
