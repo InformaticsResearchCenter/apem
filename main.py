@@ -1,6 +1,6 @@
 import speech_recognition as sr
 def masuk():
-        from selenium import webdriver
+        from selenium import webdriver #11
         from selenium.webdriver.firefox.options import Options
         opsi = Options()
         opsi = webdriver.firefox.options.Options()
@@ -11,7 +11,7 @@ def masuk():
         driver.get("https://siap.poltekpos.ac.id")
 
 def login():
-        from selenium import webdriver
+        from selenium import webdriver #11
         from selenium.webdriver.firefox.options import Options
         opsi = Options()
         opsi = webdriver.firefox.options.Options()
