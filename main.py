@@ -1,8 +1,8 @@
 import speech_recognition as sr
 def masuk():
         from selenium import webdriver 
-        from selenium.webdriver.firefox.options import Options # issue 12
-        opsi = Options()
+        from selenium.webdriver.firefox.options import Options 
+        opsi = Options() #13
         opsi = webdriver.firefox.options.Options()
         opsi.headless = False
         cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX
@@ -13,7 +13,7 @@ def masuk():
 def login():
         from selenium import webdriver
         from selenium.webdriver.firefox.options import Options # issue 12
-        opsi = Options()
+        opsi = Options() #13
         opsi = webdriver.firefox.options.Options()
         opsi.headless = False
         cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX
