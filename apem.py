@@ -1,8 +1,8 @@
 import speech_recognition as sr
 from selenium import webdriver 
 from selenium.webdriver.firefox.options import Options
-class Apem(object): #issue 21
-    def __init__(self, filname):
+class Apem(object): 
+    def __init__(self, filname): #issue 22
         self.filname = filname
 
     def masuk(self): 
