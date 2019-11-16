@@ -24,10 +24,10 @@ class Apem(object):
         self.driver.get("https://siap.poltekpos.ac.id")
         self.driver.find_element_by_name('user_name').send_keys("1184030")
         self.driver.find_element_by_name('user_pass').send_keys("sariasih54")
-        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()#issue 25
+        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()
 
 
-    def speak(self):
+    def speak(self): #issue 26
         r= sr.Recognizer()
         with sr.Microphone() as source:
             print("SAY SOMETHING, PLEASE")
