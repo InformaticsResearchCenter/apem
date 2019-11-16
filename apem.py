@@ -27,7 +27,7 @@ class Apem(object):
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()
 
 
-    def speak(self): #issue 26
+    def speak(self):
         r= sr.Recognizer()
         with sr.Microphone() as source:
             print("SAY SOMETHING, PLEASE")
@@ -44,4 +44,4 @@ class Apem(object):
             print(e)
             print("error")
  
-        print("Time is over, thanks")
+        print("Time is over, thanks") #issue 27
