@@ -2,7 +2,7 @@ import speech_recognition as sr
 from selenium import webdriver 
 from selenium.webdriver.firefox.options import Options
 class Apem(object): 
-    def __init__(self, filname): #issue 22
+    def __init__(self, filname):
         self.filname = filname
 
     def masuk(self): 
@@ -24,7 +24,7 @@ class Apem(object):
         self.driver.get("https://siap.poltekpos.ac.id")
         self.driver.find_element_by_name('user_name').send_keys("1184030")
         self.driver.find_element_by_name('user_pass').send_keys("sariasih54")
-        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()
+        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()#issue 25
 
 
     def speak(self):
