@@ -1,4 +1,4 @@
 import apem
 
 speech = apem.Apem(object)
-speech.speak()
+speech.speak() #issues30

@@ -44,4 +44,4 @@ class Apem(object):
             print(e)
             print("error")
  
-        print("Time is over, thanks") #issue 27
+        print("Time is over, thanks") 
