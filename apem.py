@@ -5,7 +5,7 @@ class Apem(object):
     def __init__(self, filname):
         self.filname = filname
 
-    def masuk(self): 
+    def masuk(self): #issues#23
         self.opsi = Options() 
         self.opsi = webdriver.firefox.options.Options() 
         self.opsi.headless = False 
@@ -14,7 +14,7 @@ class Apem(object):
         self.driver = webdriver.Firefox()
         self.driver.get("https://siap.poltekpos.ac.id")
 
-    def login(self): #issues24
+    def login(self): 
         self.opsi = Options() 
         self.opsi = webdriver.firefox.options.Options() 
         self.opsi.headless = False
