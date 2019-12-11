@@ -38,7 +38,7 @@ class Apem(object):
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[5]').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p[1]/table/tbody/tr/td[3]/select/option[4]').click()
         self.driver.find_element_by_class_name('button').click()
-    def ceknilai3(self): #issues 47
+    def ceknilai3(self): 
         self.opsi = Options()
         self.opsi.headless = False
         self.cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX
@@ -51,7 +51,7 @@ class Apem(object):
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[5]').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p[1]/table/tbody/tr/td[3]/select/option[2]').click()
         self.driver.find_element_by_class_name('button').click()
-    def ceknilaipendek(self):
+    def ceknilaipendek(self): #issues 48
         self.opsi = Options()
         self.opsi.headless = False
         self.cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX
