@@ -2,9 +2,9 @@ import speech_recognition as sr
 from selenium import webdriver 
 from selenium.webdriver.firefox.options import Options
 class Apem(object): 
-    def __init__(self, npm, paswd): #issues 31
-        self.npm = npm
-        self.paswd = paswd
+    def __init__(self, npm, paswd): 
+        self.npm = npm #issues 32
+        self.paswd = paswd #issues 32
     def masuk(self): 
         self.opsi = Options()
         self.opsi.headless = False
