@@ -51,7 +51,7 @@ class Apem(object):
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[5]').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p[1]/table/tbody/tr/td[3]/select/option[2]').click()
         self.driver.find_element_by_class_name('button').click()
-    def ceknilaipendek(self): #issues 48
+    def ceknilaipendek(self): 
         self.opsi = Options()
         self.opsi.headless = False
         self.cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX
@@ -99,7 +99,7 @@ class Apem(object):
             x = "siap"
             y = "login siap"
             z = "Cek nilai semester 1"
-            a = "Cek nilai semester 2"
+            a = "Cek nilai semester 2" #issues 49
             b = "Cek nilai semester 3"
             c = "Cek nilai semester pendek"
             d = "Kalender akademik"
