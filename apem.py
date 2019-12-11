@@ -99,8 +99,8 @@ class Apem(object):
             x = "siap"
             y = "login siap"
             z = "Cek nilai semester 1"
-            a = "Cek nilai semester 2" #issues 49
-            b = "Cek nilai semester 3"
+            a = "Cek nilai semester 2" 
+            b = "Cek nilai semester 3" #issues 50
             c = "Cek nilai semester pendek"
             d = "Kalender akademik"
             if (r.recognize_google(audio, language='id-ID')) == x:
