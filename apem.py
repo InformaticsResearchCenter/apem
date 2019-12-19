@@ -74,7 +74,7 @@ class Apem(object):
         self.driver.find_element_by_name('user_name').send_keys(self.npm)
         self.driver.find_element_by_name('user_pass').send_keys(self.paswd)
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()
-    def kalenderganjil2019(self): #issues 51
+    def kalenderganjil2019(self): 
         self.opsi = Options()
         self.opsi.headless = False
         self.cap = webdriver.common.desired_capabilities.DesiredCapabilities().FIREFOX
@@ -84,7 +84,7 @@ class Apem(object):
         self.driver.find_element_by_name('user_name').send_keys(self.npm)
         self.driver.find_element_by_name('user_pass').send_keys(self.paswd)
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()
-        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[6]').click()
+        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[6]').click() #issues 52
         self.driver.find_element_by_class_name('textbox').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p/table/tbody/tr[2]/td[2]/select/option[1]').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p[1]/table/tbody/tr[4]/td[2]/select/option[2]').click()
@@ -99,7 +99,7 @@ class Apem(object):
         self.driver.find_element_by_name('user_name').send_keys(self.npm)
         self.driver.find_element_by_name('user_pass').send_keys(self.paswd)
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()
-        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[6]').click()
+        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[6]').click() #issues 52
         self.driver.find_element_by_class_name('textbox').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p/table/tbody/tr[2]/td[2]/select/option[2]').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p[1]/table/tbody/tr[4]/td[2]/select/option[2]').click()
@@ -114,7 +114,7 @@ class Apem(object):
         self.driver.find_element_by_name('user_name').send_keys(self.npm)
         self.driver.find_element_by_name('user_pass').send_keys(self.paswd)
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()
-        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[6]').click()
+        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[6]').click() #issues 52
         self.driver.find_element_by_class_name('textbox').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p/table/tbody/tr[2]/td[2]/select/option[3]').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p[1]/table/tbody/tr[4]/td[2]/select/option[2]').click()
@@ -129,7 +129,7 @@ class Apem(object):
         self.driver.find_element_by_name('user_name').send_keys(self.npm)
         self.driver.find_element_by_name('user_pass').send_keys(self.paswd)
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()
-        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[6]').click()
+        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[6]').click() #issues 52
         self.driver.find_element_by_class_name('textbox').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p/table/tbody/tr[2]/td[2]/select/option[4]').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p[1]/table/tbody/tr[4]/td[2]/select/option[2]').click()
@@ -144,7 +144,7 @@ class Apem(object):
         self.driver.find_element_by_name('user_name').send_keys(self.npm)
         self.driver.find_element_by_name('user_pass').send_keys(self.paswd)
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()
-        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[6]').click()
+        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[6]').click() #issues 52
         self.driver.find_element_by_class_name('textbox').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p/table/tbody/tr[2]/td[2]/select/option[5]').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p[1]/table/tbody/tr[4]/td[2]/select/option[2]').click()
@@ -159,7 +159,7 @@ class Apem(object):
         self.driver.find_element_by_name('user_name').send_keys(self.npm)
         self.driver.find_element_by_name('user_pass').send_keys(self.paswd)
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[2]/table[2]/tbody/tr[1]/td[2]/div/form/input[4]').click()
-        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[6]').click()
+        self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[1]/tbody/tr/td[1]/table[2]/tbody/tr[1]/td[2]/a[6]').click() #issues 52
         self.driver.find_element_by_class_name('textbox').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p/table/tbody/tr[2]/td[2]/select/option[6]').click()
         self.driver.find_element_by_xpath('/html/body/table/tbody/tr[5]/td/table[3]/tbody/tr[1]/td[2]/p[1]/table/tbody/tr[4]/td[2]/select/option[2]').click()
